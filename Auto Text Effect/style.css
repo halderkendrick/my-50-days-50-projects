@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1{
+    color: #fff;
+}
+
+div{
+    position: absolute;
+    bottom: 20px;
+    background: rgba(46, 44, 44, 0.219);
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+label{
+    color: #fff;
+}
+
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
